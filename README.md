@@ -4,8 +4,6 @@ A Python program that reads a company's financial data from a CSV file, computes
 key financial ratios, identifies long-term trends and year-on-year growth, 
 automatically flags financial health indicators, and outputs a structured PDF report.
 
-Built as the final project for Harvard University's CS50P: Introduction to 
-Programming with Python.
 
 ---
 
