@@ -140,15 +140,27 @@ contextual explanations where relevant.
 metric in the dataset.
 
 ---
-
 ## Files
 
 | File | Description |
 |------|-------------|
 | `project.py` | Main program: `Company` class, `PDF` class, `get_data`, `main` |
-| `test_project.py` | pytest test suite for core functions and methods |
+| `test_project.py` | pytest test for core functions and methods |
+| `README.md` | Project documentation |
+
+### `data/`
+| File | Description |
+|------|-------------|
 | `McDonalds_Financial_Statements.csv` | McDonald's annual financial data 2002-2022 |
+| `Apple_Financial_Statements.csv` | Apple annual financial data 2009-2024 |
 | `Tesla_Financial_Statements.csv` | Tesla annual financial data 2014-2024 |
+
+### `sample_reports/`
+| File | Description |
+|------|-------------|
+| `McDonalds_Financial_Report.pdf` | Sample output report for McDonald's |
+| `Apple_Financial_Report.pdf` | Sample output report for Apple |
+| `Tesla_Financial_Report.pdf` | Sample output report for Tesla |
 
 ---
 ## Sample Reports
