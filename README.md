@@ -208,12 +208,7 @@ detects negative equity and substitutes a plain-English explanation.
 This reflects what a real financial analyst would do rather than blindly 
 reporting a number that would mislead any reader without context.
 
-**All content in `header()`.** The PDF layout places all content inside 
-the `header()` method of the `PDF` subclass, which runs automatically 
-when `add_page()` is called. This follows the fpdf2 subclassing pattern 
-and keeps the `main()` function clean, though it means content would 
-repeat on a second page if the report ever exceeded one page. For the 
-current scope this is not an issue.
+
 
 ---
 
